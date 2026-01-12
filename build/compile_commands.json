@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Vscode/study_bilibili/cmake_planning_test/build",
+  "command": "D:\\APP\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\Vscode\\study_bilibili\\cmake_planning_test\\planning_main.cpp",
+  "file": "D:/Vscode/study_bilibili/cmake_planning_test/planning_main.cpp",
+  "output": "CMakeFiles/planning_main.dir/planning_main.cpp.obj"
+},
+{
+  "directory": "D:/Vscode/study_bilibili/cmake_planning_test/build",
+  "command": "D:\\APP\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -o CMakeFiles\\planning_main.dir\\process.cpp.obj -c D:\\Vscode\\study_bilibili\\cmake_planning_test\\process.cpp",
+  "file": "D:/Vscode/study_bilibili/cmake_planning_test/process.cpp",
+  "output": "CMakeFiles/planning_main.dir/process.cpp.obj"
+},
+{
+  "directory": "D:/Vscode/study_bilibili/cmake_planning_test/build",
+  "command": "D:\\APP\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -o CMakeFiles\\planning_main.dir\\pnc_map.cpp.obj -c D:\\Vscode\\study_bilibili\\cmake_planning_test\\pnc_map.cpp",
+  "file": "D:/Vscode/study_bilibili/cmake_planning_test/pnc_map.cpp",
+  "output": "CMakeFiles/planning_main.dir/pnc_map.cpp.obj"
+}
+]
