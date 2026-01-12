@@ -10,13 +10,14 @@
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "4.2.1"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -31,7 +32,8 @@
 					"name" : "cmake_planning_test",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "planning_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_lib-Debug-daa41787cd843bb6b5c9.json",
+					"name" : "planning_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "planning_main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-planning_main-Debug-07c60bdd2159e84ae1f3.json",
+					"jsonFile" : "target-planning_main-Debug-b6aefd161a0aab6e00e3.json",
 					"name" : "planning_main",
 					"projectIndex" : 0
 				}

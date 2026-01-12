@@ -2,10 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Vscode/study_bilibili/cmake_planning_test/bin/planning_main.exe"
+			"path" : "D:/Vscode/study_bilibili/cmake_planning_test/bin/libplanning_lib.dll"
 		},
 		{
-			"path" : "D:/Vscode/study_bilibili/cmake_planning_test/bin/planning_main.pdb"
+			"path" : "libplanning_lib.dll.a"
+		},
+		{
+			"path" : "D:/Vscode/study_bilibili/cmake_planning_test/bin/libplanning_lib.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +16,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -27,7 +31,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -43,7 +53,20 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "planning_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Vscode/study_bilibili/cmake_planning_test/include"
 				}
 			],
 			"language" : "CXX",
@@ -58,18 +81,17 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2
+				1
 			]
 		}
 	],
-	"id" : "planning_main::@6890427a1f51a3e7e1df",
+	"id" : "planning_lib::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-shared",
 				"role" : "flags"
 			},
 			{
@@ -79,8 +101,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "planning_main",
-	"nameOnDisk" : "planning_main.exe",
+	"name" : "planning_lib",
+	"nameOnDisk" : "libplanning_lib.dll",
 	"paths" : 
 	{
 		"build" : ".",
@@ -93,8 +115,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -103,21 +124,15 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "planning_main.cpp",
+			"path" : "src/pnc_map.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "process.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "pnc_map.cpp",
+			"path" : "src/process.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }
